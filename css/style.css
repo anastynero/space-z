@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    width: 1040px;
+  }
+  .site-header .container {
+    height: 699px;
+    color: #d4d4d4;
+    background: url(../image/moon-rocket.png);
+    background-repeat: no-repeat;
+    background-position: 500px 140px;
+  }
+  .main-nav {
+    display: flex;
+  }
+  .site-menu {
+    display: flex;
+    list-style: none;
+    width: 700px;
+    margin-bottom: 128px;
+    margin-top: 60px;
+  }
+  .logo{
+    margin-top: 50px;
+  }
+  .site-menu a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #d4d4d4;
+  }
+  .contacts-menu {
+    display: flex;
+    margin-top: 60px;
+  }
+  .site-header {
+    background: #222;
+  }
+  .about-us h1 {
+    color: #fff;
+  
+    font-family: Courier New;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  .about-us {
+    margin-left: 120px;
+    width: 300px;
+  }
+  .about-us p {
+    margin-bottom: 54px;
+  }
+  .btn {
+    width: 240px;
+    height: 50px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-right: 100px;
+    padding-left: 38px;
+  }
+  .btn-yellow {
+    background: #ffcb06;
+  }
